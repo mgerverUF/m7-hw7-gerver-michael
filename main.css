@@ -6,3 +6,45 @@ header, nav, aside, article, footer, section, main, figure, figcaption {
 	border:0;
 	padding:0;
 }
+
+body {
+    text-align: center;
+}
+
+h1, h2, p {
+    font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 5% 0;
+    color: white;
+    background-color: darkcyan;
+    font-size: .7em;
+}
+
+section {
+    padding: 5% 0;
+    color: darkslategray;
+    font-size: .9em;
+}
+
+footer h2 {
+    border-top: solid 1px gray;
+    color: darkcyan;
+    padding: 5% 0;
+}
+
+@media (min-width: 700px) {
+    header {
+        font-size: 1.1em;
+    }
+
+    section {
+        font-size: 1.2em;
+    }
+
+    footer h2 {
+        font-size: 1.75em;
+    }
+
+}
