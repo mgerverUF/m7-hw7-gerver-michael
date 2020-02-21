@@ -1,0 +1,8 @@
+header, nav, aside, article, footer, section, main, figure, figcaption {
+	display:block;
+}
+* {
+ 	margin:0;
+	border:0;
+	padding:0;
+}
