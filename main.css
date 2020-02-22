@@ -23,15 +23,24 @@ header {
 }
 
 section {
-    padding: 5% 0;
-    color: darkslategray;
-    font-size: .9em;
+    padding: 30% 0;
+    color: white;
+    font-size: 1.1em;
+    background-image: url('sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px 3px black;
 }
 
 footer h2 {
-    border-top: solid 1px gray;
     color: darkcyan;
     padding: 5% 0;
+}
+
+@media (min-width: 500px) {
+    section {
+        font-size: 1.5em;
+    }
 }
 
 @media (min-width: 700px) {
@@ -40,11 +49,18 @@ footer h2 {
     }
 
     section {
-        font-size: 1.2em;
+        font-size: 1.9em;
     }
 
     footer h2 {
         font-size: 1.75em;
     }
 
+}
+
+@media (min-width: 700px) {
+    section {
+        padding: 15% 0;
+        background-position: 50% 50%;
+    }
 }
